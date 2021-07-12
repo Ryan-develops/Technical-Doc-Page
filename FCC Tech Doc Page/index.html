@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <header>HTML Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#HTML_Introduction">HTML Introduction</a></li>
+            <li><a class="nav-link" href="#HTML_Editors">HTML Editors</a></li>
+            <li><a class="nav-link" href="#HTML_Basics">HTML Basics</a></li>
+            <li><a class="nav-link" href="#HTML_Headings">HTML Headings</a></li>
+            <li><a class="nav-link" href="#HTML_Paragraphs">HTML Paragraphs</a></li>
+            <li><a class="nav-link" href="#HTML_Links">HTML Links</a></li>
+            <li><a class="nav-link" href="#HTML_Images">HTML Images</a></li>
+        </ul>
+    </nav>
+    <div class="top">
+        <a href="#"><img src="images/top-arrow.png"></a>
+    </div>
+    <main id="main-doc">
+        <div class="section-one">
+            <section class="main-section" id="HTML_Introduction">
+                <header class="sticky-header">HTML Introduction</header>
+                <div class="HTML-intro">
+                    <h4>HTML is the standard markup language for creating Web pages.</h4>
+                    <ul>
+                        <li>HTML stands for Hyper Text Markup Language</li>
+                        <li>HTML is the standard markup language for creating Web pages</li>
+                        <li>HTML describes the structure of a Web page</li>
+                        <li>HTML consists of a series of elements</li>
+                        <li>HTML elements tell the browser how to display the content</li>
+                        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                    </ul>
+
+                    <h2>A Simple HTML Document</h2>
+                    <fieldset>
+                        <legend>Example</legend>
+                        <div class="example-box">
+
+                            <pre>
+                       <code>
+<span class="example-arrows">&lt;!</span><span class="example-syntax">DOCTYPE html</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">html</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">head</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">title</span><span class="example-arrows">&gt;</span><span class="example-text">Page Title</span><span class="example-arrows">&lt;/</span><span class="example-syntax">title</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;/</span><span class="example-syntax">head</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">body</span><span class="example-arrows">&gt;</span>
+                        
+<span class="example-arrows">&lt;</span><span class="example-syntax"></span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span><span class="example-text">My First Heading</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">My first paragraph.</span><span class="example-arrows">/&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+                        
+<span class="example-arrows">&lt;/</span><span class="example-syntax">body</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;/</span><span class="example-syntax">html</span><span class="example-arrows">&gt;</span>
+                       </code>
+                   </pre>
+
+                        </div>
+                    </fieldset>
+                    <h4>Example Explained</h4>
+                    <ul>
+                        <li>The <span class="code-background"><code>&lt;!DOCTYPE html&gt;</code></span> declaration defines that this document is an HTML5 document
+                        </li>
+                        <li>The <code class="code-background">&lt;html&gt;</code> element is the root element of an HTML page</li>
+                        <li>The <code class="code-background">&lt;head&gt;</code> element contains meta information about the HTML page</li>
+                        <li>The <code class="code-background">&lt;title&gt;</code> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+                        <li>The <code class="code-background">&lt;body&gt;</code> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                        <li>The <code class="code-background">&lt;h1&gt;</code> element defines a large heading</li>
+                        <li>The <code class="code-background">&lt;p&gt;</code> element defines a paragraph</li>
+                    </ul>
+
+                    <h2>Web Browsers</h2>
+                    <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</p>
+                    <p>A browser does not display the HTML tags, but uses them to determine how to display the document.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- Section One -->
+        <div class="section-two">
+
+            <section class="main-section" id="HTML_Editors">
+                <header class="sticky-header">HTML Editors</header>
+                <p>Web pages can be created and modified by using professional HTML editors.</p>
+                <p>However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).</p>
+                <p>We believe in that using a simple text editor is a good way to learn HTML.</p>
+                <p>Follow the steps below to create your first web page with Notepad or TextEdit.</p>
+
+                <h2>Step 1: Open Notepad(PC)</h2>
+                <p>Windows 8 or later:</p>
+                <p>Open the Start Screen (the window symbol at the bottom left on your screen). Type Notepad.</p>
+                <p>Windows 7 or earlier:</p>
+                <p>Open Start &gt; Programs &gt; Accessories &gt; Notepad</p>
+
+                <h2>Step 1: Open TextEdit (Mac)</h2>
+                <p>Open Finder &gt; Applications &gt; TextEdit</p>
+                <p>Also change some preferences to get the application to save files correctly. In Preferences &gt; Format &gt; choose "Plain Text"</p>
+                <p>Then under "Open and Save", check the box that says "Display HTML files as HTML code instead of formatted text".</p>
+                <p>Then open a new document to place the code.</p>
+
+                <h2>Step 2: Write Some HTML</h2>
+                <p>Write or copy the following HTML code into Notepad:</p>
+                <fieldset>
+                    <div class="example-box">
+                        <pre>
+<code><span class="example-arrows">&lt;!</span><span class="example-syntax">DOCTYPE html</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">html</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">body</span><span class="example-arrows">&gt;</span>
+                        
+<span class="example-arrows">&lt;</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span><span class="example-text">My First Heading</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span>
+                        
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">My first paragraph.</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+                        
+<span class="example-arrows">&lt;/</span><span class="example-syntax">body</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;/</span><span class="example-syntax">html</span><span class="example-arrows">&gt;</span></code>
+                </pre>
+                    </div>
+                </fieldset>
+
+                <h2>Step 3: Save the HTML Page</h2>
+                <p>Save the file on your computer. Select File &gt; Save as in the Notepad menu.</p>
+                <p>Name the file "index.html" and set the encoding to UTF-8 (which is the preferred encoding for HTML files).
+                </p>
+
+                <h2>Step 4: View the HTML Page in Your Browser</h2>
+                <p>Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with").</p>
+                <p>The result will look much like this:</p>
+                <img src="https://www.w3schools.com/html/img_notepad.png" alt="First Heading" class="images">
+            </section>
+        </div>
+        <div class="section-three">
+            <section class="main-section" id="HTML_Basics">
+                <header class="sticky-header">HTML Basics</header>
+                <h2>HTML Documents</h2>
+                <p>All HTML documents must start with a document type declaration: <code class="code-background">&lt;!DOCTYPE html&gt;</code>.
+                </p>
+                <p>The HTML document itself begins with <code class="code-background">&lt;html&gt;</code> and ends with
+                    <code class="code-background">&lt;/html&gt;</code>.
+                </p>
+                <p>The visible part of the HTML document is between <code class="code-background">&lt;body&gt;</code> and
+                    <code class="code-background">&lt;/body&gt;</code>.
+                </p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre>
+                    <code>
+<span class="example-arrows">&lt;!</span><span class="example-syntax">DOCTYPE html</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">html</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">body</span><span class="example-arrows">&gt;</span>
+
+<span class="example-arrows">&lt;</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span><span class="example-text">My First Heading</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">My first paragraph.</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+
+<span class="example-arrows">&lt;/</span><span class="example-syntax">body</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;/</span><span class="example-syntax">html</span><span class="example-arrows">&gt;</span>
+                    </code>
+                </pre>
+                    </div>
+                </fieldset>
+
+                <h2>The &lt; !DOCTYPE&gt; Declaration</h2>
+                <p>The <code class="code-background">&lt;!DOCTYPE&gt;</code> declaration represents the document type, and helps browsers to display web pages correctly.</p>
+                <p>It must only appear once, at the top of the page (before any HTML tags).</p>
+                <p>The <code class="code-background">&lt;!DOCTYPE&gt;</code> declaration is not case sensitive.
+
+                </p>
+                <p>The <code class="code-background">&lt;!DOCTYPE&gt;</code> declaration for HTML5 is:
+                </p>
+                <fieldset>
+                    <div class="example-box">
+                        <pre>
+<code><span class="example-arrows">&lt;!</span><span class="example-syntax">DOCTYPE html</span><span class="example-arrows">&gt;</span></code>
+                </pre>
+                    </div>
+                </fieldset>
+
+                <h2>HTML Headings</h2>
+                <p>HTML headings are defined with the <code class="code-background">&lt;h1&gt;</code> to <code class="code-background">&lt;h6&gt;</code> tags.</p>
+                <p><code class="code-background">&lt;h1&gt;</code> defines the most important heading. <code class="code-background">&lt;h6&gt;</code> defines the least important heading: </p>
+                <fieldset>
+                    <div class="example-box">
+                        <pre>
+                    <code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span><span class="example-text">This is heading 1</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h2</span><span class="example-arrows">&gt;</span><span class="example-text">This is heading 2</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h2</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h3</span><span class="example-arrows">&gt;</span><span class="example-text">This is heading 3</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h3</span><span class="example-arrows">&gt;</span>
+                </code>
+            </pre>
+                    </div>
+                </fieldset>
+
+                <h2>HTML Paragraphs</h2>
+                <p>HTML paragraphs are defined with the <code class="code-background">&lt;p&gt;</code> tag:</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">This is a paragraph.</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">This is another paragraph.</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+
+</code>
+</pre>
+                    </div>
+                </fieldset>
+
+            </section>
+
+            <h2>HTML Links</h2>
+            <p>HTML links are defined with the <code class="code-background">&lt;a&gt;</code> tag:</p>
+            <fieldset>
+                <legend>Example</legend>
+                <div class="example-box">
+                    <pre>
+                    <code>                    
+<span class="example-arrows">&lt;</span><span class="example-syntax">a href</span><span class="example-arrows">=&quot;</span><span class="example-syntax">https://www.w3schools.com</span><span class="example-arrows">&quot;&gt;</span><span class="example-text">This is a link</span><span class="example-arrows">&lt;/</span><span class="example-syntax">a</span><span class="example-arrows">&gt;</span>
+</code>
+</pre>
+                </div>
+            </fieldset>
+
+            <h2>HTML Images</h2>
+            <p>HTML images are defined with the <code class="code-background">&lt;img&gt;</code> tag.
+            </p>
+            <p>The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
+            <fieldset>
+                <legend>Example</legend>
+                <div class="example-box">
+                    <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">img src</span><span class="example-arrows">=&quot;</span><span class="example-text">w3schools.jpg</span><span class="example-arrows">&quot;</span> <span class="example-syntax">alt</span><span class="example-arrows">=&quot;</span><span class="example-text">W3Schools.com</span><span class="example-arrows">&quot;</span><span class="example-syntax"> width</span><span class="example-arrows">=&quot;</span><span class="example-text">104</span><span class="example-arrows">&quot;</span> <span class="example-syntax">height</span><span class="example-arrows">=&quot;</span><span class="example-text">142</span><span class="example-arrows">&quot;&gt;</span>
+
+
+</code></pre>
+                </div>
+            </fieldset>
+        </div>
+        <div class="section-four">
+            <section class="main-section" id="HTML_Headings">
+                <header class="sticky-header">HTML Headings</header>
+                <p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <h1 class="heading-examples" style="font-size: xx-large;">Heading 1</h1>
+                        <h2 class="heading-examples">Heading 2</h2>
+                        <h3 class="heading-examples">Heading 3</h3>
+                        <h4 class="heading-examples">Heading 4</h4>
+                        <h5 class="heading-examples">Heading 5</h5>
+                        <h6 class="heading-examples">Heading 6</h6>
+                    </div>
+                </fieldset>
+
+                <p>HTML headings are defined with the <code class="code-background">&lt;h1&gt;</code> to <code class="code-background">&lt;h6&gt;</code> tags.</p>
+
+                <p><code class="code-background">&lt;h1&gt;</code> defines the most important heading. <code class="code-background">&lt;h6&gt;</code> defines the least important heading.</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span><span class="example-text">Heading 1</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h2</span><span class="example-arrows">&gt;</span><span class="example-text">Heading 2</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h2</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h3</span><span class="example-arrows">&gt;</span><span class="example-text">Heading 3</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h3</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h4</span><span class="example-arrows">&gt;</span><span class="example-text">Heading 4</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h4</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h5</span><span class="example-arrows">&gt;</span><span class="example-text">Heading 5</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h5</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h6</span><span class="example-arrows">&gt;</span><span class="example-text">Heading 6</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h6</span><span class="example-arrows">&gt;</span>
+
+</code>
+</pre>
+                    </div>
+                </fieldset>
+            </section>
+
+
+            <h2>Headings Are Important</h2>
+            <p>Search engines use the headings to index the structure and content of your web pages.</p>
+            <p>Users often skim a page by its headings. It is important to use headings to show the document structure.
+            </p>
+            <p><code class="code-background">&lt;h1&gt;</code> headings should be used for main headings, followed by <code class="code-background">&lt;h2&gt;</code> headings, then the less important <code class="code-background">&lt;h3&gt;</code>, and so
+                on.
+            </p>
+
+            <h2>Bigger Headings</h2>
+            <p>Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS <code class="code-background">font-size</code> property:</p>
+            <fieldset>
+                <legend>Example</legend>
+                <div class="example-box">
+                    <pre><code><span class="example-arrows">&lt;</span><span class="example-syntax">h1 style</span><span class="example-arrows">=&quot;</span><span class="example-syntax">font-size:60px;</span><span class="example-arrows">&quot;&gt;</span><span class="example-text">Heading 1</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span></code>                    
+                    </pre>
+                </div>
+            </fieldset>
+        </div>
+        <div class="section-five">
+            <section class="main-section" id="HTML_Paragraphs">
+                <header class="sticky-header">HTML Paragraphs</header>
+                <p>The HTML <code class="code-background">&lt;p&gt;</code> element defines a paragraph.</p>
+                <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">This is a paragraph.</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">This is another paragraph.</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+                </code></pre>
+                    </div>
+                </fieldset>
+
+                <h2>HTML Horizontal Rules</h2>
+                <p>The <code class="code-background">&lt;hr&gt;</code> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.</p>
+                <p>The <code class="code-background">&lt;hr&gt;</code> element is used to separate content (or define a change) in an HTML page:</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span><span class="example-text">This is heading 1</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h1</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">This is some text.</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">hr</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">h2</span><span class="example-arrows">&gt;</span><span class="example-text">This is heading 2</span><span class="example-arrows">&lt;/</span><span class="example-syntax">h2</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">This is some other text</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">hr</span><span class="example-arrows">&gt;</span>
+                </code></pre>
+                    </div>
+                </fieldset>
+
+                <h2>HTML Line Breaks</h2>
+                <p>The HTML <code class="code-background">&lt;br&gt;</code> element defines a line break.
+                </p>
+                <p>Use <code class="code-background">&lt;br&gt;</code> if you want a line break (a new line) without starting a new paragraph:</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span><span class="example-text">This is</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">br</span><span class="example-arrows">&gt;</span><span class="example-text">a paragraph</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">br</span><span class="example-arrows">&gt;</span><span class="example-text">with line breaks.</span><span class="example-arrows">&lt;/</span><span class="example-syntax">p</span><span class="example-arrows">&gt;</span></code>
+                        
+                    </pre>
+                    </div>
+                </fieldset>
+            </section>
+        </div>
+        <div class="section-six">
+            <section class="main-section" id="HTML_Links">
+                <header class="sticky-header">HTML Links</header>
+                <p>HTML links are hyperlinks.</p>
+                <p>You can click on a link and jump to another document.</p>
+                <p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+
+                <h2>HTML Links - Syntax</h2>
+                <p>The HTML <code class="code-background">&lt;a&gt;</code> tag defines a hyperlink. It has the following syntax:</p>
+
+                <fieldset>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">a href</span><span class="example-arrows">=&quot;</span><span class="example-syntax">url</span><span class="example-arrows">&quot;&gt;</span><span class="example-text">link text</span><span class="example-arrows">&lt;/</span><span class="example-syntax">a</span><span class="example-arrows">&gt;</span></code>
+
+</pre>
+                    </div>
+                </fieldset>
+
+                <p>The most important attribute of the <code class="code-background">&lt;a&gt;</code> element is the href attribute, which indicates the link's destination.</p>
+                <p>The link text is the part that will be visible to the reader.</p>
+                <p>Clicking on the link text, will send the reader to the specified URL address.</p>
+
+                <p>This example shows how to create a link to W3Schools.com:</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">a href</span><span class="example-arrows">=&quot;</span><span class="example-text">https://www.w3schools.com/</span><span class="example-arrows">&quot;&gt;</span><span class="example-text">Visit W3Schools.com!</span><span class="example-arrows">&lt;/</span><span class="example-syntax">a</span><span class="example-arrows">&gt;</span>
+                </code></pre>
+                    </div>
+                </fieldset>
+
+                <p>By default, links will appear as follows in all browsers:</p>
+                <ul>
+                    <li>An unvisited link is underlined and blue</li>
+                    <li>A visited link is underlined and purple</li>
+                    <li>An active link is underlined and red</li>
+                </ul>
+
+                <h2>HTML Links - The target Attribute</h2>
+
+                <p>By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.</p>
+                <p>The target attribute specifies where to open the linked document.</p>
+                <p>The target attribute can have one of the following values:</p>
+                <ul>
+                    <li><code class="code-background">_self</code> - Default. Opens the document in the same window/tab as it was clicked</li>
+                    <li><code class="code-background">_blank</code> - Opens the document in a new window or tab</li>
+                    <li><code class="code-background">_parent</code> - Opens the document in the parent frame</li>
+                    <li><code class="code-background">_top</code> - Opens the document in the full body of the window</li>
+                </ul>
+
+                <h2>HTML Links - Use an Image as a Link</h2>
+                <p>To use an image as a link, just put the <code class="code-background">&lt;img&gt;</code> tag inside the <code class="code-background">&lt;a&gt;</code> tag:</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">a href</span><span class="example-arrows">=&quot;</span><span class="example-text">default.asp</span><span class="example-arrows">&quot;&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">img src</span><span class="example-arrows">=&quot;</span><span class="example-text">smiley.gif</span><span class="example-arrows">&quot;</span> <span class="example-syntax">alt</span><span class="example-arrows">=&quot;</span><span class="example-text">HTML tutorial</span><span class="example-arrows">&quot;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">style</span><span class="example-arrows">=&quot;</span><span class="example-text">width:42px;height:42px;</span><span class="example-arrows">&quot;&gt;</span>
+<span class="example-arrows">&lt;/</span><span class="example-syntax">a</span><span class="example-arrows">&gt;</span></code>
+                
+                </pre>
+                    </div>
+                </fieldset>
+            </section>
+        </div>
+        <div class="section-seven">
+            <section class="main-section" id="HTML_Images">
+                <header class="sticky-header">HTML Images</header>
+                <p>Images can improve the design and the appearance of a web page.</p>
+
+                <h2>HTML Images Syntax</h2>
+                <p>The HTML <code class="code-background">&lt;img&gt;</code> tag is used to embed an image in a web page.</p>
+                <p>Images are not technically inserted into a web page; images are linked to web pages. The <code class="code-background">&lt;img&gt;</code> tag creates a holding space for the referenced image.</p>
+                <p>The <code class="code-background">&lt;img&gt;</code> tag is empty, it contains attributes only, and does not have a closing tag.</p>
+                <p>The <code class="code-background">&lt;img&gt;</code> tag has two required attributes:</p>
+                <ul>
+                    <li><code class="code-background">src</code> - Specifies the path to the image</li>
+                    <li><code class="code-background">alt</code> - Specifies an alternate text for the image</li>
+                </ul>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">img src</span><span class="example-arrows">=&quot;</span><span class="example-text">url</span><span class="example-arrows">&quot;</span> <span class="example-syntax">alt</span><span class="example-arrows">=&quot;</span><span class="example-text">alternatetext</span><span class="example-arrows">&quot;&gt;</span>
+                </code></pre>
+                    </div>
+                </fieldset>
+
+                <h2>The src Attribute</h2>
+                <p>The required src attribute specifies the path (URL) to the image.</p>
+                <p>Note: When a web page loads; it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise
+                    your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser cannot find the image.</p>
+
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">img src</span><span class="example-arrows">=&quot;</span><span class="example-text">img_chania.jpg</span><span class="example-arrows">&quot;</span> <span class="example-syntax">alt</span><span class="example-arrows">=&quot;</span><span class="example-text">Flowers in Chania</span><span class="example-arrows">&quot;&gt;</span></code>
+
+</pre>
+                    </div>
+                </fieldset>
+
+                <h2>The alt Attribute</h2>
+                <p>The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).</p>
+                <p>The value of the alt attribute should describe the image:</p>
+
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">img src</span><span class="example-arrows">=&quot;</span><span class="example-text">img_chania.jpg</span><span class="example-arrows">&quot;</span> <span class="example-syntax">alt</span><span class="example-arrows">=&quot;</span><span class="example-text">Flowers in Chania</span><span class="example-arrows">&quot;&gt;</span></code>
+                    
+                    </pre>
+                    </div>
+                </fieldset>
+
+                <p>If a browser cannot find an image, it will display the value of the alt attribute:</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">img src</span><span class="example-arrows">=&quot;</span><span class="example-text">wrongname.gif</span><span class="example-arrows">&quot;</span> <span class="example-syntax">alt</span><span class="example-arrows">=&quot;</span><span class="example-text">Flowers in Chania</span><span class="example-arrows">&quot;&gt;</span></code>
+                    
+                    </pre>
+                    </div>
+                </fieldset>
+
+                <h2>Images as a Link</h2>
+                <p>To use an image as a link, put the <code class="code-background">&lt;img&gt;</code> tag inside the <code class="code-background">&lt;a&gt;</code> tag:</p>
+                <fieldset>
+                    <legend>Example</legend>
+                    <div class="example-box">
+                        <pre><code>
+<span class="example-arrows">&lt;</span><span class="example-syntax">a href</span><span class="example-arrows">=&quot;</span><span class="example-text">default.asp</span><span class="example-arrows">&quot;&gt;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">img src</span><span class="example-arrows">=&quot;</span><span class="example-text">smiley.gif</span><span class="example-arrows">&quot;</span> <span class="example-syntax">alt</span><span class="example-arrows">=&quot;</span><span class="example-text">HTML tutorial</span><span class="example-arrows">&quot;</span>
+<span class="example-arrows">&lt;</span><span class="example-syntax">style</span><span class="example-arrows">=&quot;</span><span class="example-text">width:42px;height:42px;</span><span class="example-arrows">&quot;&gt;</span>
+<span class="example-arrows">&lt;/</span><span class="example-syntax">a</span><span class="example-arrows">&gt;</span></code>
+                
+                </pre>
+                    </div>
+                </fieldset>
+            </section>
+
+        </div>
+        <p>Fun fact: "HTML" is used 82 times on this page (including this sentence).</p>
+    </main>
+</body>
+
+</html>
